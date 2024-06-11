@@ -10,7 +10,7 @@ var para_section10 = document.getElementsByClassName("para_section10");
 var title_section6 = document.getElementsByClassName("title_section6");
 
 function checkWindowSize() {
-    if (window.innerWidth >= 414 && window.innerWidth <= 1300) { 
+    if (window.innerWidth >= 375 && window.innerWidth <= 1300) { 
         for (var i = 0; i < para_section3.length; i++) {
             para_section3[i].innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Faucibus in libero risus<br>semper habitant arcu eget.";
         }
@@ -42,6 +42,11 @@ function checkWindowSize() {
             title_section6[i].innerHTML = "THE eWatch with the newest microchip technology";
         }
     }
+    // if (window.innerWidth >= 375) {
+    //     for (var i = 0; i < para_section5.length; i++) {
+    //         para_section5[i].innerHTML = "Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Faucibus in libero<br>risus semper habitant arcu eget.<br>Et integer facilisi eget.";
+    //     } 
+    // }
 }
 window.onload = checkWindowSize;
 window.addEventListener("resize", checkWindowSize);
