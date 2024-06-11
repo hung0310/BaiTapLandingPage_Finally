@@ -165,18 +165,37 @@
   }
 }
 
-@media screen and (min-width: 414px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .section1 .title_section1 {
     font-size: 40px;
+  }
+
+  .content_img_section1 {
+    margin: 32px !important;
   }
 
   .section1 .para_section1 {
     font-size: 16px;
   }
 
+  .section2 {
+    margin-top: 60px !important;
+  }
+
+  .section2 .content__section2 {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+  }
+
+  .section2 .content2_section2 {
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+  }
+
   .section2 .content_section2 {
     margin-top: 0px;
   } 
+
   .section2 .title_section2 {
     font-size: 20px;
   }
@@ -185,9 +204,13 @@
     font-size: 14px;
   }
 
+  .section2 .content_main_section2 {
+    gap: 20px !important;
+  }
+
   .section3 .content_section3 {
-    gap: 150px;
-    margin-left: 64px;
+    gap: 50px !important;
+    margin-left: 24px;
   }
 
   .section3 .title_section3 {
@@ -195,7 +218,17 @@
   }
 
   .section3 .para_section3 {
-    font-size: 20px;
+    font-size: 14px;
+  }
+
+  .section4 .content_mid_section4 {
+    margin-right: 0px !important;
+  }
+
+  .section4 .content_up_section4 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .section4 .title_section4 {
@@ -212,8 +245,18 @@
 
   .section4 .content_hide_section4 {
     display: flex;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 0px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section5 .content_section5 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 
   .section5 .title_section5 {
@@ -228,8 +271,17 @@
     font-size: 30px;
   }
 
+  .section7 .content_title7 {
+    margin-left: 20px !important;
+  }
+
   .section7 .para_section7 {
     font-size: 14px;
+  }
+
+  .section7 .content_section7 {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
   }
 
   .section8 .content_section8 {
@@ -239,37 +291,57 @@
   }
 
   .section8 .icon_section8, .icon2_section8 {
-    width: 140px !important;
-    height: 140px !important;
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .section8 .icon_section8 {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 124px !important;
+    transform: translateY(-75px);
   }
 
   .section8 .icon2_section8 {
-    margin-top: 420px !important;
-    margin-left: 360px !important;
+    margin-top: 180px !important;
+    margin-left: 136px !important;
   }
 
   .section8 .img_section8 {
-    width: 400px !important;
-    height: 480px !important;
+    width: 200px !important;
+    height: 240px !important;
+    margin-left: 0px !important;
+    transform: translateY(-30px);
+  }
+
+  .section8 .content_img_section8 {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
   }
 
   .section8 .circle_section8 {
-    width: 400px !important; 
-    height: 400px !important;
+    width: 200px !important; 
+    height: 200px !important;
     margin-bottom: 100px !important;
     border-radius: 9999px;
+    margin-top: 46px !important;
+    margin-left: 0px !important;
   }
 
   .section8 .content_text_section8 {
     align-items: center;
     justify-content: center;
-    margin-left: 64px;
+    margin-left: 0px;
     margin-bottom: 20px;
+    margin-top: 0px !important;
+    gap: 10px !important;
   }
 
   .section8 .title_section8 {
     display: flex !important;
-    font-size: 30px;
+    font-size: 30px !important;
+    line-height: 40px !important;
   }
 
   .section8 .para_section8 {
@@ -277,15 +349,18 @@
   }
 
   .section9 .title_one_section9 {
-    font-size: 40px !important;
+    font-size: 30px !important;
   }
 
   .section9 .para_one_section9 {
     font-size: 12px !important;
+    margin-left: 0px !important;
+    line-height: 20px !important;
   }
 
   .section9 .content_one_section9 {
-    margin-left: 18px !important;
+    margin-left: 0px !important;
+    gap: 16px !important;
   }
 
   .section9 .button_section9 {
@@ -294,8 +369,12 @@
     font-size: 20px !important;
   }
 
+  .content_grid_section9 {
+    gap: 20px !important;
+  }
+
   .section9 .content_two_section9 {
-    margin-left: 120px !important;
+    margin-left: 0px !important;
     margin-right: 0px !important;
     margin-top: 0px !important;
     margin-bottom: 40px !important;
@@ -303,27 +382,41 @@
 
   .section9 .content_detail_section9 {
     padding-top: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
     padding-bottom: 10px !important;
+    gap: 20px !important;
   }
 
   .section9 .number_section9 {
-    font-size: 16px !important;
+    font-size: 12px !important;
   }
 
   .section9 .para_content2_section9 {
     font-size: 10px !important;
+    line-height: 5px !important;
   }
 
   .section10 .title_section10 {
-    font-size: 30px !important;
+    font-size: 20px !important;
   }
 
   .section10 .para_section10 {
-    font-size: 12px !important;
+    font-size: 10px !important;
+    line-height: 15px !important;
   }
 
   .section10 .content_section10 {
     margin-top: 60px !important;
+  }
+
+  .design_section10 {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+  .section10 .img_section10 {
+    margin-left: 30px !important;
   }
 
   .section10 .button_section10 {
@@ -333,19 +426,31 @@
   }
 
   .section6 {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    margin-left: 0px !important;
+    margin-top: 40px !important;
   }
 
-  .section6 .complex_section6 {
-    padding: 20px;
+  .section6 .section6_col1 {
+
+  }
+
+  .section6 .content_clock_section6 {
+    transform: translateX(46px);
   }
 
   .section6 .content_section6 {
     display: flex !important;
     flex-direction: column !important;
-    margin-bottom: 640px;
+    margin-bottom: 440px;
+    margin-left: 0px !important;
+  }
+
+  .btn_section6 {
+    gap: 10px !important;
+  }
+
+  .ct_section6 {
+    gap: 10px !important;
   }
 
   .section6 .title_section6 {
@@ -361,38 +466,47 @@
   }
 
   .section6 .box_content_section6 {
-    margin-left: 0px;
+    margin-left: 0px !important;
+  }
+
+  .complex_section6 {
+    
+  }
+
+  .section6 .content__section6 {
+    margin-left: 0px !important;
   }
 
   .section6 .cn1_section6 {
-    width: 300px !important; 
-    height: 388px !important;
+    width: 180px !important; 
+    height: 260px !important;
+    margin-top: 60px !important;
   }
 
   .section6 .cn2_section6 {
-    width: 240px !important; 
-    height: 296px !important;
-    margin-left: 160px !important;
-    margin-top: 176px !important;
+    width: 160px !important; 
+    height: 200px !important;
+    margin-left: 130px !important;
+    margin-top: 136px !important;
   }
 
   .section6 .imgstar8_section6 {
-    width: 100px !important; 
-    height: 100px !important;
-    margin-left: 20px !important;
-    margin-top: 20px !important;
+    width: 60px !important; 
+    height: 60px !important;
+    margin-left: 40px !important;
+    margin-top: 24px !important;
   }
 
   .section6 .div1_section6 {
-    width: 240px !important; 
-    height: 46px !important;
-    margin-top: 360px !important;
+    width: 220px !important; 
+    height: 36px !important;
+    margin-top: 240px !important;
   }
 
   .section6 .div2_section6 {
     width: 200px !important; 
-    height: 46px !important;
-    margin-left: 240px !important;
+    height: 36px !important;
+    margin-left: 110px !important;
   }
 
   .section6 .text_div1_section6, .text_div2_section6  {
@@ -400,21 +514,36 @@
   }
 
   .section6 .imgstar61_section6 {
-    width: 70px !important; 
-    height: 90px !important;
+    width: 30px !important; 
+    height: 50px !important;
     margin-top: 40px !important;
     margin-left: 70px !important;
   }
 
   .section6 .imgstar62_section6 {
-    width: 82px !important; 
-    height: 178px !important;
+    width: 42px !important; 
+    height: 138px !important;
     margin-top: 274px !important;
     margin-left: 258px !important;
   }
 
   .section6 .img_section6 {
-    width: 300px !important; 
-    height: 444px !important;
+    width: 200px !important; 
+    height: 300px !important;
+    transform: translateX(-20px);
+  }
+
+  .section6 .button1_section6  {
+    font-size: 12px !important;
+    width: 180px !important;
+  }
+
+  .section6 .button2_section6  {
+    font-size: 12px !important;
+    width: 180px !important;
+  }
+
+  .complex_section6 {
+    margin-left: 30px !important;
   }
 }
